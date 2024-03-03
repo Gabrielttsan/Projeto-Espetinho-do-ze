@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Logo';
+    src: url(./fonte/Rye-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'corpo';
+    src: url(./fonte/Pompiere-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1288px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    padding: 16px 0;
+    background-color: rgb(34, 27, 27);
+    color: rgb(204, 77, 68);
+}
+
+header h1,
+section h2{
+    font-family: 'logo';
+    font-size: 32px;
+    font-weight: normal;
+}
+
+header .container li{
+    display: inline;
+    padding: 16px;
+}
+
+header .container a{
+    font-size: 16px;
+    font-family: 'logo';
+    color: rgb(204, 77, 68);
+    text-decoration: none;
+}
+
+section img{
+    padding: 30px;
+    width: 600px;
+    height: 500px;
+}
+
+section{
+    display: flex;
+    padding: 24px 0;
+}
+
+header .container,
+section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .container{
+    align-items: flex-start;
+    padding: 24px 0;
+}
+
+.brand-logo{
+    margin-right: 32px;
+    padding: 30px;
+    width: 600px;
+    height: 500px;
+}
+
+section p{
+    font-family: 'corpo';
+    text-align: justify;
+    margin-right: 35px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(204, 77, 68);
+}
+
+section h2{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+.container section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu div img{
+    padding-top: 20px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.menu > div{
+    width: 30%;
+    justify-content: space-between;
+}
+
+.cardapio h2, h3, p{
+    margin-left: 28px;
+}
+
+.cardapio h2{
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.menu h3{
+    font-family: 'logo';
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.menu p{
+    margin-top: 5px;
+}
+
+section,
+#contact{
+    background: linear-gradient(to bottom, #ffffff, #000000);}
+
+section li{
+    display: inline;
+}
+
+.cardapio{
+    background: linear-gradient(to bottom, #ffffff, #000000);}
+
+div .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact .container{
+    display: block;
+}
+
+div .contact-required{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-family: 'corpo';
+    border-radius: 10px;
+    border: none;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    cursor: pointer;
+    background-color: rgb(34, 27, 27);
+    color: rgb(204, 77, 68);
+    border: none;
+    font-family: 'logo';
+}
+
+form button:hover{
+    background-color: rgb(57, 57, 61);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(204, 77, 68);
+}
+
+.contact-required li img{
+    display: inline;
+    width: auto;
+    height: 30px;
+    padding-left: 8px;
+    margin-top: 14px;
+}
+
+
+.container li{
+    display: inline-block;
+}
+
+.contact-required li a{
+    text-decoration: none;
+}
+
+.container h2, h3{
+    margin-bottom: 16px;
+
+    font-family: 'logo';
+    font-weight: normal;
+}
+
+.container h2{
+    margin-top: 24px;
+    font-size: 32px;
+}
+
+footer{
+    display: flex;
+    padding: 16px 0;
+    background-color: rgb(34, 27, 27);
+    color: rgb(204, 77, 68);
+    font-weight: normal;
+    font-family: 'logo';
+    font-size: 14px;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
